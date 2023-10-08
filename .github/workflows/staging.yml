@@ -2,7 +2,7 @@ name: Staging Unit Test
 on:
   push:
     branches:
-      - 'master'
+      - 'staging'
 jobs:
   test:
     runs-on: ubuntu-latest
