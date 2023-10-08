@@ -1,5 +1,9 @@
 name: Output Github Workflow
-on: workflow_dispatch
+on: 
+  push:
+    branches:
+      - 'staging'
+      - 'master'
 jobs:
   info:
     runs-on: ubuntu-latest
