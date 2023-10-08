@@ -1,4 +1,4 @@
-name: Workflow Output Information
+name: Output Github Workflow
 on: [workflow_dispatch]
 jobs:
   info:
